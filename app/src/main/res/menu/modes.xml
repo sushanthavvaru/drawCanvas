@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Draw"
+        android:id="@+id/draw"
+        android:checkable="false" />
+    <item android:title="Delete"
+        android:id="@+id/delete"
+        android:checkable="false" />
+    <item android:title="Move"
+        android:id="@+id/move"
+        android:checkable="false" />
+    <item android:title="Change Color"
+        android:id="@+id/change"
+        android:checkable="false" >
+        <menu >
+            <item android:title="Black"
+                android:id="@+id/black" />
+            <item android:title="Red"
+                android:id="@+id/red" />
+            <item android:title="Blue"
+                android:id="@+id/blue" />
+            <item android:title="Green"
+                android:id="@+id/green" />
+        </menu>
+    </item>
+</menu>
